@@ -1,41 +1,75 @@
 header {
-    background-image: url("../images/maro-luke-wuX5I_dgxPw-unsplash.jpg");
-    background-repeat: no-repeat;
     background-size: 100% 100%;
-}
-p {
-    width: 60%;
+    background-color:mediumblue;
 }
 
 body {
-    font-family:  'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header * {
     color: floralwhite;
 }
 
-header h2 {
-    margin-bottom: 60px
+header {
+    font-family: cursive;
 }
 
-img {
-    width: 300px;
+.body-layout-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-#menu ul {
+
+.body-layout-flex-item-first{
+    flex: 0 0 20%;
+}
+
+.body-layout-flex-item-last {
+    flex: 0 0 20%;
+}
+
+header + .body-layout-flex-container > .body-layout-flex-item-first {
+    border-right-style: solid;
+    border-right-color: midnightblue;
+    border-right-width: thin;
+}
+
+.body-layout-flex-item {
+    flex: 1 1 auto
+}
+
+.menu-flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.menu-flex-item {
+    flex: 0 1 auto;
+    padding: 30px;
+    text-align: left;
+    
+}
+
+.menu-flex-item a {
+    padding-left: 5px;
+}
+
+#contact {
+font-size: small;
+font-family: cursive;
+}
+
+#certifications ul {
     list-style: none;
-    margin: 0 0;
-    padding: 0 0;
+    padding-inline-start: 0px;
+    margin: 0;
 }
 
-#menu li {
-    display: inline-block;
-    padding-left: 30px;
-}
-
-#menu li:first-child {
-    padding-left: 0
+#certifications ul li {
+line-height: 1.7;
 }
 
 .img-wrapper {
@@ -45,48 +79,14 @@ img {
 }
 
 .content-wrapper {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 15px;
     color: black;
-    display: flow;
 }
 
-.flex-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.flex-item-first {
-    flex: 0 0 300px
-}
-.flex-item {
-    flex: 1 1 auto
-}
-
-.about-me {
-    padding-left: 10px;
-}
-
-.contact-me-image-container {
-    height: 50px;
-    width: 50px;
-    align-content: center;
-}
-
-.contact-flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-.contact-flex-item {
-    padding : 10px
-}
-
-.header-flex-container {
-    display: flex;
-    flex-direction: column;
+body .content-wrapper {
+    padding: 0;
 }
 
 .thumb-nail {
@@ -94,22 +94,22 @@ img {
     width: 50px;
 }
 
-.edu-flex-container {
+.contact-me-image-container {
+    height: 30px;
+    width: 30px;
+    align-content: center;
+}
+
+.contact-flex-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
     align-items: center;
-    justify-items: left;
 }
 
-.edu-flex-item {
-    padding: 10px;
+.contact-flex-item {
+    padding : 10px
 }
 
-#education h2.edu-flex-item {
-    margin: 0 0;
-    padding-left: 0
-}
-
-header > div.content-wrapper {
-    padding-bottom: 5px
+h2.section-title {
+    font-family: cursive;
 }

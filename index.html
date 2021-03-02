@@ -11,206 +11,197 @@
 <body>
     <main>
         <header>
-            <div class="content-wrapper header-flex-container">
-                <h1>SWETHA CHAKRAVARTHY</h1>
-                <h2>Software Development Engineer</h2>
-                <nav id="menu">
-                    <ul>
-                        <li><a href="#about-me">About me</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#work-exp">Work experience </a></li>
-                        <li> <a href="#skills"> Technical Skills </a></li>
-                        <li> <a href="#contact"> Contact me </a></li>
-                    </ul>
-                </nav>
+            <div class="body-layout-flex-container">
+                <div class="body-layout-flex-item-first"></div>
+                <div class="body-layout-flex-item">
+                    <div class="content-wrapper">
+                        <h1>Swetha Chakravarthy</h1>
+                        <h2>Senior Software Engineer</h2>
+                    </div>
+                </div>    
             </div>
         </header>
-        <section id="about-me">
-            <div class="content-wrapper flex-wrapper">
-                <div class="img-wrapper flex-item-first">
-                    <img src="images/20200606_213328.jpg">
-                </div>
-                <div class="about-me flex-item">
-                    <h2>About Me</h2>
-                    <p>
-                        "Senior Software Engineer with hands on experience in all levels of software development stack. My past experience primarily has been in .NET technologies with a focus
-                        writing UI E2E and API test automation for web applications. Transitioned to Java technology stack and worked on writing UI and API automation for a year and thereafter started
-                        working as a full stack developer in JS technologies. I'm excited to be learning some of the open source tools and technologies. I'm passionate to learn new technologies."
-                    </p>
-                    <p>
-                        "I'm passionate about my faith, family, friends, music and orchids !! Some of my hobbies include cooking, gardening, learning to play the guitar"
-                    </p>
-                </div>
+        <div class="body-layout-flex-container">
+           <div class="body-layout-flex-item-first"> 
+                <nav id="menu" class="content-wrapper menu-flex-container">
+                    <div class="menu-flex-item">
+                        <a href="#about-me">About me</a>
+                    </div>
+                    <div class="menu-flex-item">
+                        <a href="#education" >Education</a>
+                    </div>
+                    <div class="menu-flex-item">
+                        <a href="#work-exp">Work experience </a>
+                    </div>
+                    <div class="menu-flex-item">
+                        <a href="#skills"> Technical Skills </a>
+                    </div>
+                    <div class="menu-flex-item">
+                        <a href="#contact"> Contact me </a>
+                    </div>
+                </nav>
             </div>
-        </section>
-        <section id="education">
-            <div class="content-wrapper ">
-                <div class="edu-flex-container">
-                    <h2 class="edu-flex-item">Education</h2>
-                    <img src="images/Education-Free-PNG-Image.png" class="thumb-nail edu-flex">
-                </div>
-                <section>
-                    <h3>
+            <div class="body-layout-flex-item">
+                <section id="about-me">
+                    <div class="content-wrapper">
+                        <div class="about-me">
+                            <h2 class="section-title">About Me</h2>
+                            <p>
+                                "Software Engineer with 15+ years hands on experience in all levels of software development stack. While my past experience primarily has been in .NET technologies with a focus
+                                writing UI E2E and API test automation for web applications. I've now transitioned to full stack developer role in the Java Script eco-system. I'm passionate to learn new technologies
+                                and utilize new skills to produce cutting-edge software. In my spare time I enjoy cooking(trying new recipes), gardening(orchids in particular), singing and learning to play guitar"
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="education">
+                    <div class="content-wrapper ">
+                        <h2 class="edu-flex-item section-title">Education</h2>
                         <a href="https://www.iitb.ac.in/">Indian Institute of technology(IIT) Bombay - Mumbai, India</a>
-                    </h3>
-                    <p>Masters in Technology(M.Tech), Computer Science, 2000-2002</p>
-                </section>
-                <section>
-                    <h3>
+                        <p>Masters in Technology(M.Tech), Computer Science, 2000-2002</p>
                         <a href="http://www.uceou.edu/"> Osmania University College of Engineering(OUCE) - Hyderabad, India</a>
-                    </h3>
-                    <p>Bachelors in Engineering(B.E), Computer Science, 1996-2000</p>
+                        <p>Bachelors in Engineering(B.E), Computer Science, 1996-2000</p>
+                    </div>
                 </section>
-            </div>
-        </section>
-        <hr>
-        <section id="work-exp">
-            <div class="content-wrapper">
-                <h2>Work Experience</h2>
-                <section>
-                    <h3>Software Development Engineer(SDE) @ Avalara, Seattle</h3>
-                    <h4>May 2019 - Present (Full Time) </h4>
-                    <ul>
-                        <li>Joined Content Engineering team @Avalara as a senior SDET and fully automated integration tests in Java cutting down the manual testing time by ~ 80%</li>
-                        <li>Identify and fix bottlenecks in test framework improving execution time of tests by ~ 40% </li>
-                        <li>Transitioned to an SDE role in June 2020 and quickly ramped up on Vue JS, Node, PostGresSQL etc.</li>
-                        <li>Worked on front end + server side API + SQL scripts + unit/api tests development for the web based content management tool</li>
-                    </ul>
-                </section>
-                <br>
-                <section>
-                    <h3>Software Development Engineer in Test Consultant(SDET) @ Bluetooth SIG, Kirkland</h3>
-                    <h4>Sep 2018 - Feb 2019 (Contract) </h4>
-                    <ul>
-                        <li>Worked for Bluetooth SIG to improve the quality of their web based tools - Launch Studio and Launch Studio Admin tool. </li>
-                        <li>Worked on adding automated tests for GET/POST/PUT/DELETE requests for the business entities</li>
-                        <li>Created data driven automated UI tests using Selenium for C# to test various business related workflows</li>
-                    </ul>
-                </section>
-                <br>
-                <section>
-                    <h3>SDET Consultant @ Microsoft, Skype Team, Redmond</h3>
-                    <h4>Feb 2016 - July 2016 (Contract) </h4>
-                    <ul>
-                        <li>Worked on testing Skype Preview desktop/mobile app that comes integrated with Windows 10 anniversary update (Windows Redstone builds) rolled out in Aug 2016. </li>
-                        <li>Automated BVTs</li>
-                        <li>Manual BVT testing on Windows Desktop, Windows Mobile Phones (Cityman and Talkman) </li>
-                        <li>RTL testing of Skype Preview on Desktop using pseudo localized build.  </li>
-                        <li>Performance testing of Skype Preview on Windows Desktop and Windows Phones(Saimaa, Cityman & Talkman) using WinPerf/Xperf tools.</li>
-                        <li>Creating bugs in TFS and assigning them to developers during the testing and compiling test results and sending out reports to the team.</li>
-                    </ul>
-                </section>
-                <br>
-                <section>
-                    <h3>SDET Consultant @ Microsoft, Bing Maps Team, Redmond</h3>
-                    <h4>July 2014 - June 2015 (Contract) </h4>
-                    <ul>
-                        <li>Automated UI feature tests and E2E tests for product Bing Maps V8 UI client on IE & Chrome browsers.</li>
-                        <li>Feature specifics worked on are Local Search Card(Business, Address), Listing card, Directions card, Feedback card, Taskbar, Autosuggest. </li>
-                        <li>Adding automated UI feature and E2E tests as well as adding new page object model classes to the test framework (that the UI tests depend on) in C#. </li>
-                        <li>Testing test code changes by running tests in local selenium grid mode and eventually in remote grid mode before code check-in. </li>
-                        <li>Daily analyzing and debugging failed test cases by looking at the test run logs, trying to repro the bug locally </li>
-                        <li> Opening bugs for test failures due to product bugs and fixing test failures due to test code.   </li>
-                        <li>Daily sending out analysis report of failed testcases to the team. </li>
-                        <li>Participation in weekly bug bashes, daily scrum meetings, raising code review requests, fixing code review comments and code check-ins. </li>
-                    </ul>
-                </section>
-                <br>
-                <section>
-                    <h3>SDET Consultant @ Microsoft, Office 365 Team, Redmond</h3>
-                    <h4>May 2012 - June 2013 (Contract) </h4>
-                    <p>
-                        Systematically tested complete functionality of MyOfferTool, a Microsoft Internal web based tool with SQL database backend developed
-                        to improve end-to-end life cycle of Office 365 offer processes. Tested critical areas of the tool (Import of existing offers/SKUs/SPs from
-                        workbook to SQL DB, role based authentication and login into the tool, business rules enforcement in offer/SKU/service plan creation, Offer/SKU/SP Workflow
-                        & Email notification, Export of approved Offers/SKUs/SPs). Worked on testing some new features of Office 365 community web site
-                        http://community.office365.com/en-us/default.aspx. Feature specifics worked on are Top Topics Syndication & answering services.
-                        Also, worked on testing Assistance Panel feature, a web control on https://portal.microsoftonline.com for small business customers ( Office 365 LITEPACK SKU)
-                    </p>
-                    <ul>
-                        <li>Written detailed test plans/specs based on functional specifications</li>
-                        <li>Adding new manual functional test cases </li>
-                        <li>Manual execution of BVTs regression tests</li>
-                        <li>Creation verification and closure of bugs </li>
-                        <li>Active participation in daily scrum, bug triage meetings, test spec review meetings </li>
-                    </ul>
-                </section>
-                <br>
-                <section>
-                    <h3>SDET Consultant @ Microsoft, Visual Studio WiX Team, Redmond)</h3>
-                    <h4>Nov 2007 – July 2008 (Contract) </h4>
-                    <ul>
-                        <li>Worked on Automating the testing of Votive - the Visual Studio package for WiX(Windows Installer XML)used to create and build WiX setup projects using Visual Studio IDE.</li>
-                        <li>Designed and implemented necessary support layer for GUI and DTE(API) test automation(using C#)</li>
-                        <li>Implemented test cases to test various GUI components (Property Grid, Build Event Dialog etc) of Votive –[GUI Testing]</li>
-                        <li>Implemented Unit tests to test the API’s  provided by the WiX toolset(Ex: APIs to set properties of a WiX project that can also be set via Property Grid Dialog) [ Unit Testing ]</li>
-                        <li>Implemented test cases that test the integration of Votive to Visual Studio 2008 [Integration Testing]</li>
-                        <li>Test automation code check-in to TFS and build breaks fixes.</li>
-                        <li>Scheduling test runs using MadDog on various machines (with different architectures, OS Versions, languages)</li>
-                        <li>Analyzing/Investigating test failures on machines and logging bugs</li>
-                        <li>Generating code coverage data.</li>
-                        <li>Manual Testing of the installation of .NET Framework 3.5(MSI) on machines with different OS( Windows XP, Server 2003, Vista).</li>
-                    </ul>
-                </section>
-                <br>
-                <section>
-                    <h3>IT Analyst @ Tata Consultancy services, Pune</h3>
-                    <h4>July 2002 – Sept 2007 (Full time) </h4>
-                    <h5>Windows UST(Unified Stress tools) team, Microsoft</h5>
-                    <ul>
-                        <li>Fixing bugs in the UI components of UST plug-in like Stress Scheduler, Failure Explorer.</li>
-                        <li>UI Test Automation for testing end to end scenarios in UST using RPF(Record and Playback Framework) and the final deployment of the test cases on WTT 2.1 JOJ framework.</li>
-                        <li>Manual Testing of UST components</li>
-                        <li>Design & development of web pages for displaying the stress monitoring data. The website displays information of the users who initiated stress runs along with the links to various logs required for debugging stress issues.</li>
-                        <li>Provision of support services for UST users. This involved providing help to users running stress on machines (with Windows Vista Beta2 & RC1 builds) using Stress Scheduler/Taskbarstress/USTLaunch/Stress.cmd script for launching stress.</li>
-                    </ul>
-                    <h5>WTT Team, Microsoft</h5>
-                    <ul>
-                        <li>Bug fixing of some of the UI components of WTT 2.1</li>
-                        <li>Re-design & development of some of the components for WTT 2.2 using C# for Windows Applications</li>
-                        <li>Testing & opening new bugs, resolving and closing bugs</li>
-                        <li>Debugging C# code</li>
-                        <li>Code Reviews</li>
-                    </ul>
-                    <h5>FxCop 1.3 Customization for TCS-MS ODC(Offshore Development Center)</h5>
-                    <ul>
-                        <li>Customized FxCop 1.3 standards checking tool for Microsoft ODC of TCS to improve quality of c# code</li>
-                        <li>Added new rules like checking for empty try catch blocks, dead unreachable code etc.</li>
-                    </ul>
-                    <h5>Language Processing tools group @ TRDDC(R&D division of TCS)</h5>
-                    <ul>
-                        <li><p>Design and development of a migration tool that migrates a Power Builder application to a C# application in .NET. using compiler technology.</p>
+                <section id="certifications">
+                    <div class="content-wrapper">
+                        <h2 class="section-title">Certifications</h2>
+                        <ul>
+                            <li>
+                                <a href="documents/CertificateOfCompletion_Learning Node.js.pdf">Learning Node.js (LinkedIn)</a>
+                            </li>
+                            <li>
+                                <a href="documents/CertificateOfCompletion_JavaScript Essential Training 2017.pdf">Java Script Essential Training (LinkedIn)</a>
+                            </li>
+                            <li>
+                                <a href="documents/CertificateOfCompletion_Vue.js Creating and Hosting a FullStack Site.pdf">Vue.js Creating and Hosting a Full-Stack Site (LinkedIn)</a>
+                            </li>
+                            <li>
+                                <a href="documents/CertificateOfCompletion_Vue.js Essential Training.pdf">Vue.js Essential (LinkedIn)</a>
+                            </li>
+                            <li>
+                                <a href="documents/CertificateOfCompletion_CSS Essential Training.pdf">CSS Essential Training (LinkedIn)</a>
+                            </li>
+                            <li>
+                                <a href="documents/CertificateOfCompletion_Vue.js Building an Interface.pdf">Vue.js Building an interface</a>
+                            </li>
+                            <li>
+                                <a href="documents/CertificateOfCompletion_Building Vue and Node Apps with Authentication.pdf">Building Node and Vue Apps with Authentication</a>
+                            </li>
+                            <li> Microsoft Certified Technical Specialist .NET Framework 4, Windows Applications (MCTS)
+                            </li>
+                            <li>Microsoft Professional Certified (MCP)</li>
+                        </ul>
+                    </div>
+                </section>   
+                <section id="technical-skills">
+                    <div class="content-wrapper">
+                        <h2 class="section-title">Technical Skills</h2>
+                        <p><em>Operating Systems: </em>Mac OS(Catalina), Windows Server, Solaris (UNIX) </p>
+                        <p><em>Programming Languages: </em>Java Script (ES6), CSS, HTML5, PostgreSQL, T-SQL, Java, C#, C, JSON, XML </p>              
+                        <p><em>IDE’s: </em>Web Storm, IntelliJ, Visual Studio .NET</p>
+                        <p><em>Tools/Technologies: </em>Vue.js, Vuetify, Express.js, Node.js, DBeaver, Sequelize, Flyway, AWS, Chai, Jest, Mocha, GIT, Chrome Dev Tools, JDK, Apache HTTP Client, Jackson, Selenium Web Driver/Grid, Jenkins CI/CD, Jira, Postman, Fiddler, MTM, .NET MVC, WCF, REST, AJAX, ReSharper, Firebug, HTTP Watch, MS SQL Server, IIS, TFS, SSIS
+                        </p>
+                    </div>
+                </section>    
+                <section id="work-exp">
+                    <div class="content-wrapper">
+                        <h2 class="section-title">Work Experience</h2>
+                        <section>
+                            <h3>Senior Software Engineer @ Avalara, Seattle</h3>
+                            <h4>May 2019 - Jan 2021 (Full Time) </h4>
                             <ul>
-                                <li>Design of the migration tool - composed of 3 components GUI, Export Tool & PB2DOTNET migration tool</li>
-                                <li>Development of parser for power script event code, building of intermediate tree for the event code and unparsing of event code into equivalent
-                                    C# event code</li>
-                                <li>Debugging, Bug fixing, Code check ins(CVS)</li>
-                                <li>Testing & Deployment of the migration tool on Windows OS </li>
+                                <li>Contributed to developing both front end(Vue) and backend services(Express.js) for Avalara’s content management tool ‘Content Central’ used by Tax Content Researchers across the globe</li>
+                                <li>Developed critical features that support Time Travel, European Union VAT (Value Added Tax)</li>
+                                <li>Developed Server-Side Integration tests to new REST APIs using Mocha & Chai
+                                </li>
+                                <li>Worked on automating UI integration test suite of tests run daily on Jenkins</li>    
+                                <li>Implemented robust UI tests with very low failing rates due to web driver timeouts, reduced regression bugs and helped drive the testing effort.</li>
                             </ul>
-                        </li>
-                        <li>Customization of REVINE(Reverse engineering tool) for Synergy
+                        </section>
+                        <br>
+                        <section>
+                            <h3>Software Engineer 2 @ Bluetooth SIG, Kirkland</h3>
+                            <h4>Sep 2018 - Feb 2019 (Contract) </h4>
                             <ul>
-                                <li>REVINE is a TCS internal program comprehension tool used by analysts to understand legacy applications (structural framework, control flow, data flow across modules, entities and their relationships, application models). REVINE-SYNERGY project involves extending REVINE tool support for SYNERGY applications by developing a SYNERGY frontend parser that fits into the existing REVINE framework.</li>
-                                <li>Written Lex specifications, YACC grammar for Synergy language and added action code for grammar rules </li>
-                                <li>Written code in C using treegen to build intermediate tree representation which is eventually unparsed into CDIF (Common Data Interchange Format).</li>
-                                <li>Tested the parsing of SYNERGY code and building of the intermediate tree and unparsing of the intermediate tree to CDIF format. </li>
-                                <li>End to end tested the integration of Synergy Parser with the rest of the REVINE framework. </li>
-                                <li>Bug Fixing & documentation</li>
+                                <li>Worked on improving quality and adding automated & manual test coverage for Launch Studio), a web-based tool used by members of Bluetooth SIG to quality their designs for compliance with Bluetooth specifications</li>
+                                <li>Written manual (in MTM) and automated tests for notifications and new policy release. Automated tests for GET calls to get the Deprecation & Withdrawal status of projects</li>
+                                <li>Developed automated tests for REST API endpoints for Launch Studio (.NET MVC backend and Vue frontend)</li>
+                                <li>Created data driven UI tests using Selenium (for C#) and XUnit to test verification of logic for feature prerequisites for GAP layer. Reduced manual test coverage for this by ~85%</li>
                             </ul>
-                        </li>
-                    </ul>
+                        </section>
+                        <br>
+                        <section>
+                            <h3>Software Engineer @ Microsoft, Skype Team, Redmond</h3>
+                            <h4>Feb 2016 - July 2016 (Contract) </h4>
+                            <ul>
+                                <li>
+                                    Worked on both manual and automated testing of Skype Preview App.
+                                </li>
+                                <li>
+                                    Execution of manual BVTs, RTL tests (using pseudo localized builds) & performance testing (Win Perf/XPerf) on Windows 10 Desktop and Windows Mobile Phones (Saimaa, City Man & Talk Man)
+                                </li>
+                                <li>
+                                    Developed Automated BVTs, analyzing test failures, logging bugs
+                                </li>
+                            </ul>
+                        </section>
+                        <br>
+                        <section>
+                            <h3>Software Engineer 2 @ Microsoft, Bing Maps Team, Redmond</h3>
+                            <h4>July 2014 - June 2015 (Contract) </h4>
+                            <ul>
+                                <li>Contributed to adding automated feature specific and E2E UI test coverage for Bing Maps V8 on Chrome & IE browsers</li>
+                                <li>Used Selenium Web Driver (for C#), Page Object Model for adding UI feature tests + E2E tests.</li>
+                                <li>Worked on adding feature tests for UI components Local Search Card (Business, Address Types), Listing Card, Directions Card, Feedback Card, Taskbar & Autosuggest features. The Tests are run nightly using selenium grid for IE/Chrome Browsers.</li>
+                                <li>Analyzing test failures that occur in the nightly runs and determining the cause of failure. Log appropriate bugs or fix tests if the tests failure due to a flakiness.</li>    
+                            </ul>
+                        </section>
+                        <br>
+                        <section>
+                            <h3>SDET Consultant @ Microsoft, Office 365 Team, Redmond</h3>
+                            <h4>May 2012 - June 2013 (Contract) </h4>
+                            <ul>
+                                <li>Contributed to testing Office 365 Community, its integration with ‘Assistance Panel’ (Office 365 LITEPACK SKU) and MyOffer tool (Office 365 Commerce team)</li>
+                                <li>Helped in creating detailed test plans, test cases (in WTT) and test execution for Office 365 Community, Assistance Panel and MyOffer tool.</li>
+                                <li>Worked on testing 2 new features 'Top Topics Syndication’ & ‘Answering Services’on Office 365 community web site http://community.office365.com/en-us/default.aspx</li>
+                                <li>Worked on testing Assistance Panel feature, a web control on https://portal.microsoftonline.com for small business customers ( Office 365 LITEPACK SKU) as well as its integration with Office 365 Community</li>
+                                <li>Tested critical areas of MyOffer tool (Web tool with SQL backend) –Import of existing offers/SKU’s/SP’s from excel workbook into SQL DB, role-based authentication and login, business rules enforcement in office/SKU/service plan creation, Offer Workflow & Email Notifications, Export of approved offers/SKUs/SPs</li>
+                            </ul>
+                        </section>
+                        <br>
+                        <section>
+                            <h3>Software Engineer @ Microsoft, Visual Studio WiX Team, Redmond)</h3>
+                            <h4>Nov 2007 – July 2008 (Contract) </h4>
+                            <ul>
+                                <li>Worked on test automation of Votive – the Visual Studio Package for WIX (Windows Installer XML)</li>
+                                <li>Implemented automated tests for GUI Property Grid, Build Event Dialog etc.</li>
+                            </ul>
+                        </section>
+                        <br>
+                        <section>
+                            <h3>IT Analyst @ Tata Consultancy services, Pune</h3>
+                            <h4>July 2002 – Sept 2007 (Full time) </h4>
+                            <ul>
+                                <li>Worked as a developer for TRDDC Language Processing tools Group (Pune, India) as well as consultant developer for client Microsoft (WTT/UST team, Redmond, US)</li>
+                                <li>Fixed UI bugs in components Stress Scheduler, Failure Explorer etc. and developed web pages to display stress monitoring data from the WTT DB. (Onsite Aug 2005-Sept 2007)</li>
+                                <li>Maintenance of UI components for WTT 2.2(Offshore Aug 2004 – Aug 2005)</li>
+                                <li>Design and development of PB2DOTNET migration tool (TRDDC R & D vision of TCS, Language Processing Group) that migrates Power Builder Applications to C# .NET application using compiler technology (July 2002 – Dec 2004)</li>
+                            </ul>
+                        </section>               
                 </section>
             </div>
-        </section>
-        <hr>
-        <footer id="contact">
-            <div class="content-wrapper contact-flex-container">
-                <h2 class="contact-flex-item">Contact me @</h2>
-                <a class="contact-flex-item" href="mailto:swetha.chakravarthy@hotmail.com"><img src="images/Email-PNG-Photo.png" class="contact-me-image-container"></a>
-                <a href="https://www.facebook.com/swetha.chakravarthy/"> <img src="images/f_logo_RGB-Hex-Blue_512.png" class="contact-me-image-container"></a>
-                <a class="contact-flex-item" href="https://www.linkedin.com/in/swethachakravarthy/"> <img src="images/LI-In-Bug.png" class="contact-me-image-container"></a>
+            <div class="body-layout-flex-item-last">
+                <div id="contact">
+                    <div class="content-wrapper contact-flex-container">
+                        <h2 class="contact-flex-item">Contact Me @</h2>
+                        <a class="contact-flex-item" href="mailto:swetha.chakravarthy@hotmail.com"><img src="images/Email-PNG-Photo.png" class="contact-me-image-container"></a>
+                        <a href="https://www.facebook.com/swetha.chakravarthy/"> <img src="images/f_logo_RGB-Hex-Blue_512.png" class="contact-me-image-container"></a>
+                        <a class="contact-flex-item" href="https://www.linkedin.com/in/swethachakravarthy/"> <img src="images/LI-In-Bug.png" class="contact-me-image-container"></a>
+                    </div>
+                </div>        
             </div>
-        </footer>
+        </div>
     </main>
 </body>
 </html>
